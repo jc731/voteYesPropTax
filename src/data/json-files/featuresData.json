@@ -1,0 +1,165 @@
+[
+  {
+    "title": "Custom Web Design",
+    "icon": "line-md:computer",
+    "description": "Create a stunning online presence with UniSyn's custom web design services. We build visually appealing, user-friendly websites that align with your brand and attract more visitors.",
+    "category": "Web Development"
+  },
+  {
+    "title": "Mobile First Design",
+    "icon": "line-md:cellphone-screenshot",
+    "description": "Ensure your website looks great and functions smoothly on all devices. Our responsive design services adapt your site to any screen size, enhancing user experience and accessibility.",
+    "category": "Web Development"
+  },
+  {
+    "title": "E-commerce Solutions",
+    "icon": "shopping-cart",
+    "description": "Boost your online sales with our e-commerce solutions. We integrate secure payment gateways, manage inventory, create a seamless shopping experience, and implement advanced product search and filtering.",
+    "category": "E-commerce"
+  },
+  {
+    "title": "Multi-Store E-commerce Management",
+    "icon": "line-md:map-marker-radius-twotone",
+    "description": "Manage multiple online stores from a single platform. We provide centralized control, synchronized inventory, and streamlined operations for businesses with multiple storefronts.",
+    "category": "E-commerce"
+  },
+  {
+    "title": "Subscription Services",
+    "icon": "credit-card",
+    "description": "Offer subscription-based services and recurring billing to your customers. We integrate subscription management tools to help you maintain steady revenue streams.",
+    "category": "E-commerce"
+  },
+  {
+    "title": "SEO Optimization",
+    "icon": "line-md:clipboard-list",
+    "description": "Increase your website's visibility on search engines with our SEO optimization services. We implement best practices to help you rank higher, attract more traffic, and drive conversions.",
+    "category": "SEO"
+  },
+  {
+    "title": "Local SEO",
+    "icon": "line-md:map-marker-alt-filled-loop",
+    "description": "Capture local customers by optimizing your site for local search results. We enhance your online presence in local listings, maps, and localized search queries.",
+    "category": "SEO"
+  },
+  {
+    "title": "Technical SEO Audits",
+    "icon": "line-md:check-list-3",
+    "description": "Identify and resolve technical issues affecting your site’s search engine rankings. Our audits cover site speed, mobile responsiveness, crawl errors, and more.",
+    "category": "SEO"
+  },
+  {
+    "title": "Content Optimization",
+    "icon": "line-md:edit-twotone",
+    "description": "Enhance the quality of your content for both users and search engines. We optimize keywords, meta tags, and readability to improve engagement and rankings.",
+    "category": "SEO"
+  },
+  {
+    "title": "Backlink Strategy",
+    "icon": "line-md:link",
+    "description": "Improve your website’s authority and rankings through strategic backlink building. We develop a plan to gain high-quality links from reputable sites.",
+    "category": "SEO"
+  },
+  {
+    "title": "Enterprise Integration",
+    "icon": "line-md:folder-network",
+    "description": "Enhance your business operations with custom integrations for NetSuite, Salesforce, and Infor systems to streamline workflows and centralize data management.",
+    "category": "Custom Development"
+  },
+  {
+    "title": "Custom API Development",
+    "icon": "line-md:document-code-twotone",
+    "description": "Expand your website's capabilities with custom API development. We create APIs that allow your site to interact with other systems and enhance its functionality.",
+    "category": "Custom Development"
+  },
+  {
+    "title": "Workflow Automation Solutions",
+    "icon": "line-md:folder-network-twotone",
+    "description": "Automate routine tasks and processes to improve efficiency. We develop custom workflows that integrate seamlessly with your existing systems.",
+    "category": "Custom Development"
+  },
+  {
+    "title": "Analytics and Reporting",
+    "icon": "chart-pie",
+    "description": "Make data-driven decisions with our analytics and reporting tools. Track user behavior, monitor performance, and gain insights that help optimize your online strategy.",
+    "category": "Analytics"
+  },
+
+  {
+    "title": "Third-Party Integrations",
+    "icon": "line-md:link",
+    "description": "Integrate your website with popular third-party tools and services to enhance functionality. We connect CRM systems, payment gateways, marketing tools, and more.",
+    "category": "Integrations"
+  },
+  {
+    "title": "Security and Maintenance",
+    "icon": "shield-check",
+    "description": "Protect your website from threats with our security and maintenance services. We provide regular updates, security monitoring, and backups to keep your site secure and running smoothly.",
+    "category": "Security"
+  },
+  {
+    "title": "User Experience (UX) Design",
+    "icon": "user-circle",
+    "description": "Improve user satisfaction with our UX design services. We focus on creating intuitive, engaging, and easy-to-navigate websites that keep visitors coming back.",
+    "category": "User Experience"
+  },
+  {
+    "title": "Scalable Hosting Solutions",
+    "icon": "line-md:cloud-alt-upload-loop",
+    "description": "Ensure your website is always accessible with our scalable hosting solutions. We offer reliable hosting services that can grow with your business and handle increased traffic.",
+    "category": "Hosting"
+  },
+  {
+    "title": "Conversion Rate Optimization (CRO)",
+    "icon": "line-md:thumbs-up",
+    "description": "Turn more visitors into customers with our conversion rate optimization services. We analyze user behavior and make adjustments to improve your site's conversion rates.",
+    "category": "SEO"
+  },
+  {
+    "title": "Digital Strategy Consulting",
+    "icon": "line-md:light-bulb",
+    "description": "Receive expert guidance on your digital strategy. Our consulting services help you define goals, identify opportunities, and create a roadmap to online success.",
+    "category": "Consulting"
+  },
+  {
+    "title": "Multilingual Website Development",
+    "icon": "line-md:map-marker-alt-twotone-loop",
+    "description": "Reach a global audience with multilingual website development. We build websites that support multiple languages, catering to diverse customer bases.",
+    "category": "Web Development"
+  },
+  {
+    "title": "Email Marketing Integration",
+    "icon": "line-md:email-alt-twotone",
+    "description": "Boost your marketing efforts with email marketing integration. We connect your website to popular email marketing platforms for seamless campaign management.",
+    "category": "Marketing"
+  },
+  {
+    "title": "Social Media Integration",
+    "icon": "line-md:thumbs-up-twotone",
+    "description": "Enhance your online presence with social media integration. We link your website with social platforms to increase engagement and visibility.",
+    "category": "Marketing"
+  },
+  {
+    "title": "A/B Testing",
+    "icon": "line-md:clipboard-check",
+    "description": "Optimize your website's performance with A/B testing. We run experiments to see what works best, helping you make data-driven improvements.",
+    "category": "Performance"
+  },
+  {
+    "title": "Marketing Automation",
+    "icon": "line-md:clipboard-plus",
+    "description": "Streamline your marketing efforts with automation tools. We set up automated workflows to enhance lead generation, nurturing, and customer engagement.",
+    "category": "Marketing"
+  },
+  {
+    "title": "Cloud-Based Solutions",
+    "icon": "line-md:cloud",
+    "description": "Take advantage of the cloud with our cloud-based solutions. We provide scalable and reliable cloud hosting and storage options to support your business needs.",
+    "category": "Hosting"
+  },
+  {
+    "title": "High Availability Service",
+    "icon": "line-md:cloud-alt-tags",
+    "description": "Leverage the power of the cloud with our always available hosting. Benefit from scalable resources and reliable uptime to ensure your website is always helping you grow.",
+    "category": "Hosting"
+  }
+]

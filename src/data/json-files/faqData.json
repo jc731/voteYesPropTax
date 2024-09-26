@@ -1,0 +1,170 @@
+[
+  {
+    "question": "Can UniSyn help with e-commerce website development?",
+    "reply": "Absolutely! UniSyn specializes in building scalable e-commerce solutions tailored to your business needs. Whether you have a few products or thousands, we can design and develop an e-commerce site that fits your requirements.",
+    "category": "ecommerce",
+    "open": true
+  },
+  {
+    "question": "What e-commerce platforms does UniSyn support?",
+    "reply": "We primarily work with WooCommerce for WordPress to create seamless e-commerce experiences. However, we can also integrate with other popular platforms like Shopify and Magento, depending on your needs.",
+    "category": "ecommerce",
+    "open": false
+  },
+  {
+    "question": "Does UniSyn offer WordPress development services?",
+    "reply": "Yes, we offer comprehensive WordPress development services, including custom theme development, plugin integration, and optimization for performance and security. We can help you build a robust and user-friendly WordPress site.",
+    "category": "wordpress",
+    "open": true
+  },
+  {
+    "question": "Can you customize an existing WordPress site?",
+    "reply": "Absolutely! UniSyn can work with your existing WordPress site to add new features, redesign the layout, optimize for speed, and improve security. We tailor our services to meet your specific needs.",
+    "category": "wordpress",
+    "open": false
+  },
+  {
+    "question": "What type of hosting services does UniSyn provide?",
+    "reply": "UniSyn offers reliable and secure hosting solutions to ensure your website runs smoothly. Our hosting packages include regular backups, security monitoring, and performance optimization to keep your site online and secure.",
+    "category": "hosting",
+    "open": false
+  },
+  {
+    "question": "How does UniSyn handle website security?",
+    "reply": "Security is a top priority at UniSyn. We implement industry-standard security practices, including SSL certificates, firewalls, regular updates, and security monitoring to protect your website from threats.",
+    "category": "hosting",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn assist with custom development projects?",
+    "reply": "Yes, UniSyn offers custom development services to create solutions tailored specifically to your business needs. We work closely with you to understand your requirements and deliver a product that aligns with your vision.",
+    "category": "custom-development",
+    "open": true
+  },
+  {
+    "question": "What is the process for starting a custom development project with UniSyn?",
+    "reply": "The first step is a consultation where we discuss your project goals and requirements. This typically takes 15-30 minutes. After understanding your needs, we provide a detailed proposal and timeline to get your project started.",
+    "category": "custom-development",
+    "open": false
+  },
+  {
+    "question": "Does UniSyn support integrations with third-party tools?",
+    "reply": "Yes, we can integrate your website with various third-party tools and platforms, including CRM systems, payment gateways, and marketing automation tools, to enhance your site's functionality.",
+    "category": "integrations",
+    "open": true
+  },
+  {
+    "question": "Can you integrate my website with a custom API?",
+    "reply": "Absolutely. UniSyn can develop and integrate custom APIs to connect your website with other applications, enabling seamless data exchange and automation of processes tailored to your business needs.",
+    "category": "integrations",
+    "open": false
+  },
+  {
+    "question": "What kind of support does UniSyn offer after my website is live?",
+    "reply": "We provide ongoing support and maintenance services to ensure your website remains up-to-date, secure, and performing optimally. Our support packages can be tailored to fit your specific needs.",
+    "category": "support",
+    "open": false
+  },
+  {
+    "question": "How does UniSyn ensure my website stays updated and secure?",
+    "reply": "UniSyn offers regular maintenance plans that include updates to the WordPress core, plugins, and themes, as well as security monitoring and vulnerability scanning to protect your site from threats.",
+    "category": "support",
+    "open": false
+  },
+  {
+    "question": "What makes UniSyn's hosting different from other providers?",
+    "reply": "UniSyn provides tailored hosting solutions designed for performance and reliability. Our hosting includes advanced security measures, regular backups, and dedicated support, ensuring your site is always running at its best.",
+    "category": "hosting",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn help with SEO for my website?",
+    "reply": "Yes, we offer SEO services to help improve your website's visibility in search engines. Our approach includes on-page optimization, keyword research, and performance enhancements to boost your online presence.",
+    "category": "seo",
+    "open": false
+  },
+  {
+    "question": "Does UniSyn offer training for managing my website?",
+    "reply": "Yes, we provide training sessions tailored to your team's needs, ensuring you can manage your website confidently. Our training covers everything from basic content updates to more advanced site management tasks.",
+    "category": "training",
+    "open": false
+  },
+  {
+    "question": "How can I contact UniSyn for support or questions?",
+    "reply": "You can reach our support team via email, phone, or through the support portal on our website. We are committed to providing prompt and helpful assistance whenever you need it.",
+    "category": "support",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn integrate my website with popular CRM tools?",
+    "reply": "Yes, UniSyn can integrate your website with popular CRM systems like Salesforce, HubSpot, and Zoho. These integrations can help you manage customer relationships more effectively by syncing data and automating workflows.",
+    "category": "integrations",
+    "open": true
+  },
+  {
+    "question": "Does UniSyn support integration with payment gateways?",
+    "reply": "Absolutely! We can integrate a variety of payment gateways, such as PayPal, Stripe, and Authorize.Net, to ensure secure and seamless online transactions for your e-commerce site.",
+    "category": "integrations",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn create custom automation solutions for my business?",
+    "reply": "Yes, UniSyn specializes in developing custom automation solutions tailored to your business processes. We can automate repetitive tasks, streamline workflows, and integrate various systems to improve efficiency and reduce manual errors.",
+    "category": "custom-automation",
+    "open": true
+  },
+  {
+    "question": "How can UniSyn help improve my business processes?",
+    "reply": "UniSyn can conduct a thorough analysis of your current business processes and identify areas for improvement. We offer tailored solutions, including software integration, automation, and custom development, to optimize your operations and enhance productivity.",
+    "category": "business-process-improvements",
+    "open": false
+  },
+  {
+    "question": "What kinds of custom development projects does UniSyn undertake?",
+    "reply": "UniSyn handles a wide range of custom development projects, from building bespoke web applications to creating tailored plugins for WordPress. Whether you need a unique feature or a complex system, we have the expertise to bring your vision to life.",
+    "category": "custom-development",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn integrate my site with marketing automation tools?",
+    "reply": "Yes, UniSyn can integrate your website with marketing automation platforms like Mailchimp, Marketo, and ActiveCampaign. These integrations can help you manage campaigns, track customer engagement, and automate marketing tasks.",
+    "category": "integrations",
+    "open": false
+  },
+  {
+    "question": "How does UniSyn approach custom API development?",
+    "reply": "UniSyn follows a structured approach to custom API development, starting with understanding your specific needs. We design, develop, and implement APIs that enable seamless communication between your systems, enhancing data flow and functionality.",
+    "category": "custom-development",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn help with workflow automation within my organization?",
+    "reply": "Yes, we specialize in creating workflow automation solutions that streamline operations and reduce manual workload. By integrating various tools and systems, UniSyn can automate key processes, saving time and improving accuracy.",
+    "category": "custom-automation",
+    "open": false
+  },
+  {
+    "question": "What is the benefit of integrating third-party tools into my website?",
+    "reply": "Integrating third-party tools into your website can enhance its functionality, provide better user experiences, and improve business efficiency. From CRM and marketing tools to analytics and payment systems, these integrations help you manage all aspects of your business more effectively.",
+    "category": "integrations",
+    "open": false
+  },
+  {
+    "question": "Does UniSyn offer consultation services for process improvement?",
+    "reply": "Yes, UniSyn offers consultation services to help businesses identify areas for process improvement. We work with you to develop strategies and implement solutions that optimize workflows, reduce costs, and increase productivity.",
+    "category": "business-process-improvements",
+    "open": false
+  },
+  {
+    "question": "How can UniSyn's custom development services benefit my business?",
+    "reply": "UniSyn's custom development services provide tailored solutions that address your specific business challenges. By creating custom applications and integrations, we help you achieve greater efficiency, improve user experience, and support your unique operational needs.",
+    "category": "custom-development",
+    "open": false
+  },
+  {
+    "question": "Can UniSyn build a custom dashboard to monitor my business operations?",
+    "reply": "Yes, UniSyn can develop custom dashboards that provide real-time insights into your business operations. These dashboards can integrate data from various sources, giving you a comprehensive view and enabling informed decision-making.",
+    "category": "custom-automation",
+    "open": false
+  }
+]

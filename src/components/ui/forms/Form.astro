@@ -1,0 +1,37 @@
+---
+// Form
+// ------------
+// Description: The form component
+// Properties:
+// - method: The method of the form (post, get, dialog)
+// - classes: Additional classes to be added to the form
+// - id: The id of the form
+
+// Props
+type Props = {
+  method?: 'post' | 'get' | 'dialog'
+  classes?: string
+  id?: string
+  name?: string
+}
+const { method = 'post', classes, id, name } = Astro.props
+
+const formName = name || id || undefined
+---
+
+<form
+  method={method}
+  novalidate
+  class:list={[{ [`${classes}`]: classes }]}
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+  id={id}
+  name={formName}
+>
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
+  </p>
+  <slot />
+</form>

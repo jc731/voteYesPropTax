@@ -1,0 +1,8 @@
+node_modules
+.git
+
+.astro
+.netlify
+dist
+
+src/components/scripts/googleAnalytics.astro

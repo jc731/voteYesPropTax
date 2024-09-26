@@ -1,0 +1,43 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/HomeCTA.astro'
+import FormHero from '../components/blocks/hero/ContactHero.astro'
+import MonthlyHighlights from '../components/blocks/highlights/MonthlyHighlights.astro'
+import Testimonial from '../components/blocks/testimonials/BasicLight.astro'
+// Content
+// - SEO
+const SEO = {
+  title: 'UniSyn | Get in Touch with Us',
+  description:
+    'Have questions or need assistance? Contact UniSyn today for support, inquiries, or feedback. Our team is here to help you make the most of your Foxi experience.',
+}
+// - Page Header
+const header = {
+  title: 'Ready to <strong> Grow </strong>Your Business Online? Contact Us Today!',
+  text: "Whether you have a question, need support, or just want to share your feedback, we're all ears. Reach out to us and we'll get back to you as soon as possible.",
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+  <Hero>
+    <h1>Beautiful <strong>Web Sites</strong> Built Specifically for Your Business</h1>
+    <h3 class="pb-0 text-xl">Without crazy upfront costs</h3>
+  </Hero>
+  <MonthlyHighlights />
+  <Testimonial
+    blockquote="UniSyn knew exactly what we needed to make our website stand out. We couldn't be happier!"
+    bgPosition="right"
+    figcaption="Darren - General Manager - Inspire Marketing"
+  />
+  <FormHero
+    title={header.title}
+    text={header.text}
+    id="monthlySite"
+    formName="monthlySite"
+    formId="monthlySiteForm"
+    classes="bg-neutral-50 dark:bg-neutral-950/80"
+  />
+</Layout>

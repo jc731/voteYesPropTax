@@ -1,0 +1,54 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import FAQ from '../components/blocks/FAQ/FaqSticky.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Data
+import faqData from '../data/json-files/faqData.json'
+// - FAQ Categories
+const faqIntegrations = faqData.filter((faq) => faq.category === 'integrations')
+const faqHosting = faqData.filter((faq) => faq.category === 'hosting')
+const faqCustomDev = faqData.filter((faq) => faq.category === 'custom-development')
+const faqEcommerce = faqData.filter((faq) => faq.category === 'ecommerce')
+
+// - SEO
+const SEO = {
+  title: 'UniSyn | Get Your Questions Answered with a Smile',
+  description:
+    'Dive into the UniSyn FAQ Funhouse to get answers to all your questions about pricing, integrations, custom development, e-commerce, hosting, and more. Discover how UniSyn can elevate your online presence and streamline your operations.',
+}
+// - Page Header
+const header = {
+  title: 'Get Answers to Your <strong>UniSyn</strong> Questions.',
+  text: 'Find answers to common questions about UniSyn’s services and solutions.',
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+  <Hero title={header.title} text={header.text} />
+  <FAQ
+    title="Integrations Made Easy"
+    text="Discover how UniSyn seamlessly integrates with your favorite tools and platforms. From Google Calendar to Slack, find out how to connect and enhance your productivity with powerful integrations."
+    data={faqIntegrations}
+  />
+  <FAQ
+    title="Reliable Hosting Services"
+    text="Learn about UniSyn’s hosting solutions, designed to keep your website running smoothly and securely. We offer hosting starting at $600/year, ensuring high performance and reliability."
+    data={faqHosting}
+  />
+  <FAQ
+    title="Custom Development Solutions"
+    text="Have specific needs? UniSyn offers custom development services to tailor solutions exactly to your requirements. While it's challenging to provide a one-size-fits-all quote, we can give you an accurate estimate after a quick consultation."
+    data={faqCustomDev}
+  />
+  <FAQ
+    title="E-commerce Solutions for Your Business"
+    text="UniSyn provides scalable e-commerce solutions that grow with your business. Whether you have a few products or thousands of SKUs, we can build a system that meets your needs and budget."
+    data={faqEcommerce}
+  />
+  <CTA />
+</Layout>

@@ -1,0 +1,89 @@
+---
+// Highlights Section
+// ------------
+// Description: A section with a multiple text and image rows.
+
+// Components
+// - UI
+import TextImage from '../basic/TextImage.astro'
+
+// Content
+import highlightAnalytics from '../../../assets/highlights/analytics.png'
+import highlightPerformance from '../../../assets/highlights/speed.png'
+import highlightSEO from '../../../assets/highlights/seo.png'
+import highlightPricing from '../../../assets/highlights/pricing.png'
+import highlightFlexibility from '../../../assets/highlights/flexibility.png'
+
+type HighlightBlock = {
+  title: string
+  text: string
+  image?: {
+    src: string
+  }
+  mobileImage?: {
+    src: string
+  }
+  imageWidth: number
+  imageHeight: number
+  imagePosition: 'left' | 'right'
+}
+const highlightBlocks: HighlightBlock[] = [
+  {
+    title: 'Deliver an Exceptional User Experience with <strong>Super Fast</strong> Performance',
+    text: 'Impress your visitors with lightning-fast load times and a bleeding edge component-based design to keep your site running smoothly.',
+    image: highlightPerformance,
+    imageWidth: highlightPerformance.width / 1.5,
+    imageHeight: highlightPerformance.height / 1.5,
+    imagePosition: 'left',
+  },
+  {
+    title: 'Stay on Top with Continuous<strong> SEO </strong>Optimization',
+    text: 'Our websites receive consistent updates to match the latest SEO trends, ensuring your business remains visible and competitive online.',
+    image: highlightSEO,
+    imageWidth: highlightSEO.width / 1.5,
+    imageHeight: highlightSEO.height / 1.5,
+    imagePosition: 'right',
+  },
+  {
+    title: 'Gain <strong>Insights</strong> with Comprehensive Analytics & Monitoring',
+    text: 'Understand your audience and optimize your website with 24/7 site monitoring and detailed analytics.',
+    image: highlightAnalytics,
+    imageWidth: highlightAnalytics.width / 2,
+    imageHeight: highlightAnalytics.height / 2,
+    imagePosition: 'left',
+  },
+  {
+    title:
+      'Simple and Transparent Pricing with <br class="hidden lg:block" /><strong>No Upfront Costs</strong>',
+    text: '$200 per month starts you off with setup, hosting, domain, DNS Management, a wordclass CDN, and (of course) your homepage. Then we scale it up as you add complexity and pages. Most clients only pay $300/month!',
+    image: highlightPricing,
+    imageWidth: highlightPricing.width / 2,
+    imageHeight: highlightPricing.height / 2,
+    imagePosition: 'right',
+  },
+  {
+    title: 'Flexible <strong>Cancel Anytime</strong> Policy',
+    text: `We want to deliver peace of mind and value beyond our monthly bill to you. If we ever fall short, or you stop wanting to talk to us, cancel anytime. We even help prep your website for migration to a new hosting provider or design shop.`,
+    image: highlightFlexibility,
+    imageWidth: highlightFlexibility.width / 2,
+    imageHeight: highlightFlexibility.height / 2,
+    imagePosition: 'left',
+  },
+]
+---
+
+{
+  highlightBlocks.map((highlight, key) => (
+    <TextImage
+      id={`highlight-${key}`}
+      title={highlight.title}
+      text={highlight.text}
+      image={highlight.image}
+      imageWidth={highlight.imageWidth}
+      imageHeight={highlight.imageHeight}
+      mobileImage={highlight.mobileImage}
+      imagePosition={highlight.imagePosition}
+      classes={key === 0 ? '!pb-0' : key === highlightBlocks.length - 1 ? '!pt-0' : '!py-0'}
+    />
+  ))
+}

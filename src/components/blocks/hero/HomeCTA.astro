@@ -1,0 +1,53 @@
+---
+// Home page CTA Section
+// ------------
+// Description: A centered call to action section that contains: a title, text, a user review snippet, a button and a image.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import { Image } from 'astro:assets'
+import Button from '../../ui/Button.astro'
+
+// Content
+// - Hero Image
+import heroImage from '../../../assets/hero-01.png'
+
+import { branding } from '../../../config/branding'
+
+type Props = {
+  buttonText?: string
+}
+
+const { buttonText } = Astro.props
+---
+
+<Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
+  <Row>
+    <Col span="2" />
+    <Col span="8" align="center">
+      <slot />
+      {
+        buttonText && (
+          <Button size="lg" link="/contact">
+            {buttonText}
+          </Button>
+        )
+      }
+    </Col>
+    <Col span="2" />
+    <Col span="2" />
+    <Col span="8" classes="md:pb-12">
+      <Image
+        src={heroImage}
+        alt={branding.title}
+        class="translate-y-8 shadow-2xl shadow-neutral-200 dark:shadow-neutral-950"
+        format="webp"
+      /></Col
+    >
+    <Col span="2" />
+  </Row>
+</Section>

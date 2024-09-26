@@ -1,0 +1,72 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-01.svg'
+import feature02 from '../../../assets/cards/feature-02.svg'
+import feature03 from '../../../assets/cards/feature-03.svg'
+import feature04 from '../../../assets/cards/feature-04.svg'
+import feature05 from '../../../assets/cards/feature-05.svg'
+---
+
+<Section id="why">
+  <Row>
+    <Col span="12" align="center" classes="mb-5 max-w-4xl mx-auto">
+      <h2 class="text-pretty">Innovative solutions to <strong>grow</strong> your business</h2>
+      <p class="pb-0 text-lg text-neutral-800 dark:text-neutral-300">
+        Explore our suite of web design and development services designed to elevate your brand,
+        enhance user engagement, and drive business growth. Each solution is tailored to meet your
+        unique needs and deliver exceptional results.
+      </p>
+    </Col>
+  </Row>
+  <Row>
+    <Col span="4">
+      <Card
+        title="eCommerce Solutions"
+        subtitle="Shopify, WooCommerce, Magento, or a custom solution, our eCommerce exepertise will help you sell grow your business online and off."
+        image={feature01}
+        link="/why"
+      />
+    </Col>
+    <Col span="4" classes="flex flex-col gap-6">
+      <Card
+        title="Tailored Websites"
+        subtitle="Create a memorable and lasting first impression. Our custom design services ensure your site aligns perfectly with your brand’s identity."
+        image={feature02}
+        link="/why"
+      />
+      <Card
+        title="SEO Optimization"
+        subtitle="Get found online. SEO best practices improve your website’s visibility, drive organic traffic, and increasing your chances of reaching your target audience."
+        image={feature05}
+        link="/why"
+      />
+    </Col>
+    <Col span="4" classes="flex flex-col gap-6">
+      <Card
+        title="Security"
+        subtitle="Protect your website and user data with our advanced security measures. We implement best practices to keep your site safe from threats."
+        image={feature04}
+        link="/why"
+      />
+      <Card
+        title="Best in Class Hosting"
+        subtitle="Ensure your website is fast, reliable, and always available with our best-in-class hosting solutions, tailored to meet your business needs."
+        image={feature03}
+        link="/why"
+      />
+    </Col>
+  </Row>
+</Section>

@@ -1,0 +1,87 @@
+---
+// Highlights Section
+// ------------
+// Description: A section with a multiple text and image rows.
+
+// Components
+// - UI
+import TextImage from '../basic/TextImage.astro'
+
+// Content
+import highlight01 from '../../../assets/highlights/highlight-01.svg'
+import highlight01mobile from '../../../assets/highlights/highlight-01-mobile.svg'
+import highlight02 from '../../../assets/highlights/highlight-02.svg'
+import highlight02mobile from '../../../assets/highlights/highlight-02-mobile.svg'
+import highlight03 from '../../../assets/highlights/highlight-03.svg'
+import highlight03mobile from '../../../assets/highlights/highlight-03-mobile.svg'
+import highlight04 from '../../../assets/highlights/highlight-04.svg'
+import highlight04mobile from '../../../assets/highlights/highlight-04-mobile.svg'
+
+type HighlightBlock = {
+  title: string
+  text: string
+  image?: {
+    src: string
+  }
+  mobileImage?: {
+    src: string
+  }
+  imageWidth: number
+  imageHeight: number
+  imagePosition: 'left' | 'right'
+}
+const highlightBlocks: HighlightBlock[] = [
+  {
+    title: 'Drive Customer<strong> Growth</strong>',
+    text: 'Experience a surge in customer engagement with our custom-designed websites. UniSyn specializes in creating visually stunning, user-friendly sites that attract and retain visitors, driving meaningful growth for your business.',
+    image: highlight01,
+    imageWidth: highlight01.width,
+    imageHeight: highlight01.height,
+    mobileImage: highlight01mobile,
+    imagePosition: 'right',
+  },
+  {
+    title: 'Increase Website<strong> Traffic</strong>',
+    text: 'Boost your online presence with UniSyn’s SEO-optimized solutions. Our expertise ensures your site ranks higher in search results, drawing more visitors and potential customers to your business.',
+    image: highlight02,
+    mobileImage: highlight02mobile,
+    imageWidth: highlight02.width,
+    imageHeight: highlight02.height,
+    imagePosition: 'left',
+  },
+  {
+    title: 'Beautiful, <strong>Custom </strong> Websites',
+    text: 'Stand out with a website that’s uniquely yours. UniSyn’s talented design team creates beautiful, bespoke websites that not only look great but are tailored to your specific business needs and objectives.',
+    image: highlight03,
+    mobileImage: highlight03mobile,
+    imageWidth: highlight03.width,
+    imageHeight: highlight03.height,
+    imagePosition: 'right',
+  },
+  {
+    title: 'Small Business <strong>Expertise</strong>',
+    text: 'At UniSyn, we understand small businesses. Our custom solutions are designed to fit your budget and deliver maximum value, ensuring that even the smallest business can compete effectively in the digital landscape.',
+    image: highlight04,
+    mobileImage: highlight04mobile,
+    imageWidth: highlight04.width,
+    imageHeight: highlight04.height,
+    imagePosition: 'left',
+  },
+]
+---
+
+{
+  highlightBlocks.map((highlight, key) => (
+    <TextImage
+      id={`highlight-${key}`}
+      title={highlight.title}
+      text={highlight.text}
+      image={highlight.image}
+      imageWidth={highlight.imageWidth}
+      imageHeight={highlight.imageHeight}
+      mobileImage={highlight.mobileImage}
+      imagePosition={highlight.imagePosition}
+      classes={key === 0 ? '!pb-0' : key === highlightBlocks.length - 1 ? '!pt-0' : '!py-0'}
+    />
+  ))
+}

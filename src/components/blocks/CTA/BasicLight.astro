@@ -1,0 +1,30 @@
+---
+// Basic Light Call To Action section
+// ------------
+// Description: A centered call to action section that contains: a title, text, a rating and a button.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import CTA from '../../ui/CTA.astro'
+import Button from '../../ui/Button.astro'
+---
+
+<Section>
+  <Row>
+    <Col span="1" />
+    <Col span="10">
+      <CTA
+        title="Start your online journey today!"
+        text="Discover how UniSyn will help your business grow, reach more customers, and grow your bottom line. Get started today and see the difference for yourself!"
+        classes="!shadow-none"
+      >
+        <Button size="lg" style="primary"> Get started now! </Button>
+      </CTA>
+      <Col span="1" />
+    </Col>
+  </Row>
+</Section>

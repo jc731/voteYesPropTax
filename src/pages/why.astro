@@ -1,0 +1,74 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Feature from '../components/blocks/features/FeatureSticky.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Data
+import featuresData from '../data/json-files/featuresData.json'
+// - Feature Categories
+const featuresWebDevelopment = featuresData.filter(
+  (feature) => feature.category === 'Web Development',
+)
+const featuresEcommerce = featuresData.filter((feature) => feature.category === 'E-commerce')
+const featuresSEO = featuresData.filter((feature) => feature.category === 'SEO')
+const featuresCustomDevelopment = featuresData.filter(
+  (feature) => feature.category === 'Custom Development',
+)
+const featuresMarketing = featuresData.filter((feature) => feature.category === 'Marketing')
+const featuresHosting = featuresData.filter((feature) => feature.category === 'Hosting')
+
+// Content
+// - SEO
+const SEO = {
+  title: 'UniSyn | What makes us awesome',
+  description:
+    "Explore UniSyn's powerful features designed to boost your business growth, enhance user experience, and integrate seamlessly with the latest technologies. Join our satisfied clients and transform your business with UniSyn today!",
+}
+// - Page Header
+const header = {
+  title: 'Learn how and why our <strong>services</strong> can help you grow.',
+  text: 'Elevate your business, optimize performance, and drive growth with our innovative solutions!',
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+  <Hero title={header.title} text={header.text} />
+  <Feature
+    title="Expert Web Design"
+    text="Build a strong online presence with our custom web design services, tailored to meet your business needs."
+    data={featuresWebDevelopment}
+  />
+  <Feature
+    title="Effective SEO"
+    text="Boost your website's visibility and attract more traffic with our comprehensive SEO services."
+    data={featuresSEO}
+    classes="bg-neutral-50 dark:bg-neutral-900"
+  />
+  <Feature
+    title="Scalable Hosting"
+    text="Ensure your website is always ready to work with our scalable hosting solutions."
+    data={featuresHosting}
+  />
+  <Feature
+    title="Powerful E-commerce Solutions"
+    text="Increase sales and improve user experience with our robust e-commerce solutions designed for growth."
+    data={featuresEcommerce}
+    classes="bg-neutral-50 dark:bg-neutral-900"
+  />
+  <Feature
+    title="Right-Size Development"
+    text="Get custom solutions that align perfectly with your business objectives and technical requirements."
+    data={featuresCustomDevelopment}
+  />
+  <Feature
+    title="Integrated Marketing Solutions"
+    text="Enhance your online presence and engage your audience with our strategic marketing services."
+    data={featuresMarketing}
+    classes="bg-neutral-50 dark:bg-neutral-900"
+  />
+  <CTA />
+</Layout>

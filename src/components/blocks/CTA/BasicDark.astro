@@ -1,0 +1,40 @@
+---
+// Basic Dark Call To Action section
+// ------------
+// Description: A centered call to action section that contains: a title, text, background image, notification and a button.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import CTA from '../../ui/CTA.astro'
+import Button from '../../ui/Button.astro'
+import ChipNotification from '../../ui/ChipNotification.astro'
+import { Image } from 'astro:assets'
+import Highlight from '../../ui/Highlight.astro'
+
+// Content
+import badge from '../../../assets/badge.svg'
+---
+
+<Section>
+  <Row>
+    <Col span="1" />
+    <Col span="10">
+      <CTA
+        title="Start your online transformation today!"
+        text="Discover how UniSyn's expertise will help your business grow, improve your reach, and boost your online presence. Get started today and see the difference for yourself!"
+        mode="dark"
+      >
+        <ChipNotification radius="rounded-full" classes="mb-6 box">
+          <Image src={badge} alt="Product of the Year" class="h-12 w-12" slot="button" />
+          Best of 2024 on <Highlight classes="ml-2">Design Rush</Highlight>
+        </ChipNotification>
+        <Button size="lg" style="primary" link="/contact"> Let's Get Started </Button>
+      </CTA>
+      <Col span="1" />
+    </Col>
+  </Row>
+</Section>

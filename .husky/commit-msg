@@ -1,0 +1,2 @@
+echo "Checking commit message 'type: subject' format..."
+npx --no -- commitlint --edit ${1}

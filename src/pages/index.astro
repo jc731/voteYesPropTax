@@ -1,0 +1,28 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/HomeCTA.astro'
+import Features from '../components/blocks/features/FeatureCards.astro'
+import Testimonial from '../components/blocks/testimonials/BasicDark.astro'
+import HighlightBlocks from '../components/blocks/highlights/HightlightRows.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+---
+
+<Layout>
+  <Hero buttonText="Get Started Now">
+    <h1>Crafting <strong>Your</strong> Online Presence with Customized Web Solutions</h1>
+    <h3 class="pb-0 text-lg">
+      Transform your business with a stunning website tailored to your needs.
+    </h3>
+  </Hero>
+  <Features />
+  <Testimonial
+    blockquote="UniSyn combines programming expertise, entrepreneurial insight, and UX knowledge to keep your business relevant. Success in tech still relies on trust and hard work—values where UniSyn excels."
+    bgPosition="right"
+    figcaption="Darren - Inspire Marketing Services"
+  />
+  <HighlightBlocks />
+  <CTA />
+</Layout>

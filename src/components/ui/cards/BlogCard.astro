@@ -1,0 +1,78 @@
+---
+// Blog Card
+// ------------
+// Description: The blog card component
+// Properties:
+// - Title: the title of the card
+// - Subtitle: the subtitle of the card
+// - Image: the main image of the card
+// - Icon: the icon of the card
+// - Link: The link to the blog post
+// - classes: extra classes
+// - Tags: the tags of the blog post
+// Reference: https://wind-ui.com/components/cards/
+
+// Components
+// - UI
+import { Image } from 'astro:assets'
+import Card from './partials/Card.astro'
+import CardBody from './partials/CardBody.astro'
+import Badge from '../Badge.astro'
+
+// Props
+type Props = {
+  title?: Parameters<typeof Image>[0]['alt']
+  subtitle?: string
+  image?: any
+  link?: string
+  classes?: string
+  tags?: string[]
+}
+const {
+  title = '',
+  image,
+  link,
+  classes = '!shadow-none border border-neutral-100 dark:border-neutral-800 p-6',
+  tags,
+} = Astro.props
+---
+
+<a href={link}>
+  <Card classes={classes}>
+    {image && <Image src={image} alt={title} width={600} height={400} class="p-2" />}
+    <CardBody>
+      <h3 class="post-title">
+        {title}
+      </h3>
+    </CardBody>
+    <!-- <h4 class="post-subtitle">{subtitle}</h4> -->
+    <slot />
+  </Card>
+
+  {
+    tags && (
+      <div class="post-tags">
+        {tags.map((tag: string, index: number) => (
+          <Badge
+            name={tag}
+            link={`/blog/tags/` + tag}
+            classes="capitalize"
+            type={index === 0 ? 'primary' : ''}
+          />
+        ))}
+      </div>
+    )
+  }
+</a>
+
+<style>
+  .post-title {
+    @apply mb-0 text-xl [&_a]:text-inherit;
+  }
+  .post-subtitle {
+    @apply mb-6 text-sm font-normal text-neutral-400 dark:text-neutral-400;
+  }
+  .post-tags {
+    @apply flex gap-2 border-t border-neutral-100 px-6 py-4 dark:border-neutral-800;
+  }
+</style>
