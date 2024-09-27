@@ -1,175 +1,142 @@
-# Foxi - Astro Theme
+# Vote Yes Property Tax
 
-Open-source Astro website template with fully responsive, customizable TailwindCSS components.
+## The Ballot Text:
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/foxi.png)
+**PROPOSITION TO INCREASE THE LIMITING RATE**
 
-[![View live Demo](https://oxygenna-themes.b-cdn.net/foxi-astro/button-demo.svg)](https://foxi.netlify.app)
-[![Page Speed Insights (100%)](https://oxygenna-themes.b-cdn.net/foxi-astro/button-pagespeed.svg)](https://pagespeed.web.dev/analysis/https-foxi-netlify-app/c9ig3t85mu?form_factor=desktop)
+SHALL THE LIMITING RATE UNDER THE PROPERTY TAX EXTENSION LIMITATION LAW FOR THOMASBORO COMMUNITY CONSOLIDATED SCHOOL DISTRICT NUMBER 130, CHAMPAIGN COUNTY, ILLINOIS, BE INCREASED BY AN ADDITIONAL AMOUNT EQUAL TO 1.0000% ABOVE THE LIMITING RATE FOR SCHOOL PURPOSES FOR LEVY YEAR 2023 AND BE EQUAL TO 3.2273% OF THE EQUALIZED ASSESSED VALUE OF THE TAXABLE PROPERTY THEREIN FOR LEVY YEAR 2024?
+
+---
 
 ## Introduction
 
 ### About
 
-Foxi is a free, highly customizable, and production-ready template for Astro, utilizing Tailwind CSS components. Designed with developers in mind, Foxi offers a solid foundation for building modern, high-performance websites quickly and efficiently.
+Welcome to the official information site for the Thomasboro CCSD#130 tax referendum. This referendum seeks to increase the education fund revenue to ensure quality education for our students amidst rising costs and insufficient state funding.
 
-![just-the-basics](https://oxygenna-themes.b-cdn.net/foxi-astro/pagespeedscore.svg)
+![Thomasboro Community](https://example.com/thomasboro-community.jpg)
 
-### Features
+### Why We Need Your Support
 
-- **Built with Tailwind CSS:** Powered by Tailwind CSS for rapid UI development and responsive design.
-- **Perfect Scores in PageSpeed Insights:** Achieve perfect 100s for both desktop and mobile performance.
-- **Light & Dark Mode Support:** Seamlessly switch between light and dark themes to suit user preferences.
-- **Fully Responsive & Customizable:** Ensure your site looks great on any device, with easy customization to match your brand’s identity.
-- **SEO-friendly:** Optimized for search engines to improve visibility and organic traffic.
-- **Pre-designed Pages:** Includes a variety of pages such as Home, Pricing, Features, Contact, and more, to get you started quickly.
-- **Blog with MDX Support & Tags:** Create dynamic blog content with Markdown and JSX, complete with tagging for better organization.
-- **Easy Updates with JSON Files:** Simplify content management and updates using structured JSON files.
-- **Page Loading & Transition Animations:** Enhance user experience with smooth loading and transition effects.
-- **Clean Code & Folder Structure:** Maintain a well-organized codebase that’s easy to navigate and extend.
-- **Heroicons by Tailwind:** Access a wide range of high-quality icons to use across your site.
-- **Built-in Contact Form:** Ready-to-use contact form included.
-- **Utilizes WindUI Components:** Integrates optional WindUI TailwindCSS components.
-- **Modular Design:** The template is organized into reusable blocks enabling easy customization and expansion.
-- **Integrated Analytics:** Includes integrated Google Analytics and Google Tag Manager functionalities.
-- **Sitemap Included:** Includes a sitemap to enhance website navigation and search engine indexing.
+- **Rising Costs:** Inflation has increased the cost of goods, services, and salaries since the last tax rate increase 40 years ago.
+- **State Mandates Without Funding:** The state has mandated increases in school expenses, such as teacher salaries, without providing additional revenue.
+- **Financial Gap:** Current revenues are insufficient to cover essential expenses, particularly educational resources.
+- **Long-Term Sustainability:** Without additional funding, the district cannot sustain its operations and maintain the quality of education.
 
-## Getting Started
+---
 
-### Commands
+## Features of the Referendum
 
-After downloading the template, you'll need to install some dependencies. Once that's done, you can run it on your local server. Check out the package.json file to see what scripts are available.
+- **Investing in Education:** Additional funds will support teacher salaries, benefits, and educational programs.
+- **Financial Responsibility:** Continued abatement of bonds used for construction, utilizing County Sales Tax money.
+- **Community Growth:** Strong schools contribute to higher property values and a thriving community.
 
-| Command           | Action                                                                                                   |
-| :---------------- | :------------------------------------------------------------------------------------------------------- |
-| `nvm use ...`     | [Install node js](https://nodejs.org/en/download/) You will need to use Node.js version 20.3.0 or later. |
-| `npm install`     | Installs dependencies                                                                                    |
-| `npm run dev`     | Starts local dev server at `localhost:4321`                                                              |
-| `npm run build`   | Build your production site to `./dist/`                                                                  |
-| `npm run preview` | Preview your build locally, before deploying                                                             |
+---
 
-### Folder structure
+## Frequently Asked Questions (FAQs)
 
-Inside Foxi Astro project, you'll see the following folders and files:
+### What is the purpose of the referendum?
 
-```plaintext
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── blocks/
-│   │   │   └── ...
-│   │   └── ui/
-│   │       └── ...
-│   ├── config/
-│   │   └── ...
-│   ├── content/
-│   │   └── blog/
-│   │       └── ...
-│   ├── data/
-│   │   └── ...
-│   ├── icons/
-│   │   └── ...
-│   ├── layouts/
-│   │   └── ...
-│   ├── page-sections/
-│   │   └── home/
-│   │       └── ...
-│   └── pages/
-│       └── ...
-└── package.json
-```
+Increase the education fund revenue, allowing the district to cover rising costs and maintain a quality student education.
 
-| Directory/File           | Description                                                                                                                        |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `public/`                | Contains static assets like images and the favicon. These files are served directly at the root URL.                               |
-| `src/assets/`            | Contains all images and assets used in the project.                                                                                |
-| `src/components/`        | Contains reusable components for your site. This directory is divided into `ui` for UI components and `blocks` for section blocks. |
-| `src/components/blocks/` | Contains Section blocks used throughout the site.                                                                                  |
-| `src/components/ui/`     | Contains individual UI components.                                                                                                 |
-| `src/config/`            | Contains configuration files for the project in typescript format.                                                                 |
-| `src/content/`           | Holds collection data, such as blog posts.                                                                                         |
-| `src/content/blog/`      | Contains individual blog posts in markdown.                                                                                        |
-| `src/data/`              | Contains JSON and md files with content data (like features, testimonials etc).                                                    |
-| `src/icons/`             | Contains all icons used in the project, sourced from [Heroicons](https://heroicons.com/).                                          |
-| `src/layouts/`           | Contains layout components that define the overall structure of your pages.                                                        |
-| `src/pages/`             | Contains `.astro` files for each page. Each file here is exposed as a route based on its file name.                                |
-| `package.json`           | Lists dependencies and scripts for your project, including metadata and various package requirements.                              |
+### How will the additional funds be used?
 
-## Theme Configuration
+Funds will be allocated to:
 
-You can find the configuration files in the `src/config` directory. The configuration files are written in TypeScript and contain various settings for the theme, such as basic information, navigation bar, footer navigation, analytics, and social links. You can customize these settings to fit your specific needs.
+- Teacher and staff salaries
+- Educational programs and resources
+- Operational costs essential for school functioning
 
-| Configuration File               | Description                                                                                     |
-| -------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `src/config/config.ts`           | Includes the basic configuration settings including SEO, mode, and scroll animations.           |
-| `src/config/navigationBar.ts`    | Includes menu options for the navigation bar.                                                   |
-| `src/config/footerNavigation.ts` | Includes menu options for the footer navigation.                                                |
-| `src/config/analytics.ts`        | Includes the required codes for Google Analytics, Google Tag Manager and Google Search Console. |
-| `src/config/socialLinks.ts`      | Contains the social link data for the website.                                                  |
+### How does this tax increase affect me as a taxpayer?
 
-### Basic configuration settings
+The proposed increase is an additional 1.0000% above the current limiting rate. Please use our [Tax Impact Calculator](#tax-impact-calculator) for personalized estimates.
 
-In the `src/config/config.ts` file, you can find the basic configuration settings.
-These includes the default SEO settings:
+### What measures has the district taken before proposing a tax increase?
 
-- `siteTitle`: The default title of your website.
-- `siteDescription`: The default description of your website.
-- `ogImage`: The open graph image for your website.
-- `logo`: The logo for your website.
-- `canonical`: Whether to use canonical links for your website.
-- `noindex`: Prevents search engines from indexing your website if set to true.
+- **2015 Bonds:** Sold bonds generating $775,000, depositing $80,000 annually into the education fund over 10 years.
+- **ESSER Funds:** Utilized federal ESSER funds from 2019-2024, which are set to expire.
 
-as well as the default site settings:
+### What happens if the referendum does not pass?
 
-- `mode`: The default mode for your website. Can be set to 'auto', 'light', or 'dark'. Auto mode will automatically switch between light and dark modes based on the user's system settings, while 'light' and 'dark' will force the site to use the corresponding mode.
-- `scrollAnimations`: Whether to enable smooth scrolling animations for your website.
+Potential consequences include:
 
-## Theme Customization
+- Budget cuts affecting programs and services
+- Larger class sizes
+- Difficulty retaining qualified teachers due to non-competitive salaries
 
-### Customize the Colors
+### When and where can I learn more about the referendum?
 
-The theme uses two main colors: primary and neutral. These colors are defined in the Tailwind CSS configuration file. To personalize the color scheme of your project, you can easily modify these color values.
+Informational meetings will be hosted between August and November. Dates and times will be announced on this site and through district communications.
 
-To customize the colors, follow these steps:
+---
 
-1. Open the `tailwind.config.js` file.
-2. Find the `theme` section within the file.
-3. Under `theme`, locate the `extend` property and then the `colors` object.
-4. Modify the color values for `primary` and `neutral` to suit your preferred color palette.
+## Getting Involved
 
-You can use the [tailwind CSS colors](https://nodejs.org/en/download/) or create your [own palette](https://uicolors.app/create) .
+### Upcoming Informational Meetings
 
-### Customize the Fonts
+Stay tuned for the schedule of upcoming meetings where you can ask questions and share your thoughts.
 
-To customize the fonts used in your project, follow these steps:
+### Contact Us
 
-1. **Update the Tailwind CSS Configuration**
+- **Phone:** (123) 456-7890
+- **Email:** info@thomasboroschools.org
+- **Address:** 201 N. Phillips St., Thomasboro, IL 61878
 
-   Open the `tailwind.config.js` file. In the `theme` section, find the `extend` property and update the `fontFamily` object.
+### Stay Updated
 
-2. **Ensure Font Packages are Installed**
+Sign up for our newsletter to receive the latest updates:
 
-   Verify that the necessary font packages are included in your `package.json` file and also imported in the `src/layouts/Layout.astro` file.
+[Subscribe to Newsletter](#)
 
-You can add your own fonts by following [this guide](https://docs.astro.build/en/guides/fonts/#using-fontsource)
+---
 
-### Dark/Light Mode
+## Financial Transparency
 
-By default, the site uses an automatic mode switcher, allowing it users to switch between light and dark modes based on the user's system settings or by using the mode switcher in the navigation bar. This is achioeved by setting the `mode-auto` class in the `Layout.astro` file.
+### Revenue Breakdown
 
-If you need to enforce a specific theme, you can set the class above as **`mode-light`** or **`mode-dark`**. When **`mode-light`** is applied, the site will consistently display in light mode, and the switcher will not be functional. Similarly, **`mode-dark`** will force the site to dark mode, with the switcher rendered non-functional. These settings allow you to maintain a fixed appearance across the site regardless of user preferences or system settings.
+- **Property Tax Revenue:** $864,129.44
+- **State Revenue:** $896,676.00
+- **Total Revenue:** $1,760,805.44
+
+### Expense Breakdown
+
+- **Salaries (not covered by grants):** $1,209,428.03
+- **Total Salaries (including all staff):** $1,295,843.03
+- **Additional Expenses:** Benefits, substitutes, educational resources
+
+### Past Financial Actions
+
+- **2015 Bonds:** Generated $775,000 to support the education fund.
+- **ESSER Funds (2019-2024):** Federal funds that have been fully utilized as mandated.
+
+---
+
+## Tax Impact Calculator
+
+Use our calculator to estimate how the proposed tax increase may affect your property taxes:
+
+[Launch Tax Impact Calculator](#)
+
+---
+
+## Conclusion
+
+Your support is vital to maintaining and enhancing the quality of education in Thomasboro CCSD#130. By voting yes, you're making a direct investment in our children's future and the well-being of our community.
+
+---
+
+## Join the Conversation
+
+We encourage community members to attend informational meetings, engage with us on social media, or contact us with any questions or concerns.
+
+[Contact Us](#contact-us) | [Subscribe to Updates](#stay-updated)
+
+---
 
 ## License
 
-Copyright © 2024 - Designed & Developed by [Oxygenna](http://www.oxygenna.com/)
+© 2024 UniSyn.Tech LLC . All rights reserved.
 
-Released under the MIT license.
+---
 
-## Join the Community
-
-You can join our community on [Discord](https://discord.gg/YC5Eup8ZEx)!
-
-[![Hire Us](https://oxygenna-themes.b-cdn.net/foxi-astro/hireus.png)](mailto:info@oxygenna.com,christos@oxygenna.com)
+*This information is provided by Thomasboro Community Consolidated School District #130 and school advocates and allies to inform the community about the upcoming tax referendum.*
