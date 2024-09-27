@@ -14,8 +14,6 @@ SHALL THE LIMITING RATE UNDER THE PROPERTY TAX EXTENSION LIMITATION LAW FOR THOM
 
 Welcome to the official information site for the Thomasboro CCSD#130 tax referendum. This referendum seeks to increase the education fund revenue to ensure quality education for our students amidst rising costs and insufficient state funding.
 
-![Thomasboro Community](https://cmsv2-assets.apptegy.net/uploads/7730/logo/8888/thomasboro_logo.png =250x)
-
 ### Why We Need Your Support
 
 - **Rising Costs:** Inflation has increased the cost of goods, services, and salaries since the last tax rate increase 40 years ago.
